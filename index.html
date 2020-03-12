@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Pagina Curriculo</title>
+</head>
+<body class="overflow-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand h1 mb-0" href="index.html">Pagina</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="my-1">
+        <aside id="esquerda" class="col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                        <div id="itemCarousel" class="slide-conteiner">
+                            <div class="meuSlide">
+                                <div class="textoNumerico">1 / 4</div>
+                                <img src="img/PrimeiroSlide.svg" style="width: 100%">
+                            </div>
+                            <div class="meuSlide">
+                                <div class="textoNumerico">2 / 4</div>
+                                <img src="img/SegundoSlide.svg" style="width: 100%">
+                            </div>
+                            <div class="meuSlide">
+                                <div class="textoNumerico">3 / 4</div>
+                                <img src="img/TerceiroSlide.svg" style="width: 100%">
+                            </div>
+                            <div class="meuSlide">
+                                <div class="textoNumerico">4 / 4</div>
+                                <img src="img/QuartoSlide.svg" style="width: 100%">
+                            </div>
+
+                            <a class="prev" onclick="controleSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="controleSlide(1)">&#10095;</a>
+                        </div>
+                        <div style="text-align: center">
+                            <span class="ponto" onclick="SlideAtual(1)"></span>
+                            <span class="ponto" onclick="SlideAtual(2)"></span>
+                            <span class="ponto" onclick="SlideAtual(3)"></span>
+                            <span class="ponto" onclick="SlideAtual(4)"></span>
+                        </div>
+                    </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                </div>
+            </div>
+        </aside>
+        <aside id="direita">
+            <div class="row mb-3 mr-0">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-auto my-2">
+                <div class="card">
+                    <div class="card-body">
+                        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </aside>
+    </section>
+    <div>
+        <footer id="footer">Filipe Lemos de Souza - 2020</footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/Slide.js"></script>
+</body>
+</html>
